@@ -1,4 +1,4 @@
-package gruppproject.entity;
+package se.groupproject.entity;
 
 import jakarta.persistence.*;
 
