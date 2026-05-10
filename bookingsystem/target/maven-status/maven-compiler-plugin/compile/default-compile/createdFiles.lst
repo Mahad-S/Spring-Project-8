@@ -1,0 +1,5 @@
+gruppproject/entity/Category.class
+gruppproject/repository/CategoryRepository.class
+groupproject/App.class
+gruppproject/menu/MainMenu.class
+gruppproject/service/CategoryService.class
