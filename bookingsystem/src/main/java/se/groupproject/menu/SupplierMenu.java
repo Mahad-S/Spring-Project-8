@@ -1,6 +1,7 @@
 package se.groupproject.menu;
 
 import se.groupproject.entity.Supplier;
+import se.groupproject.service.StockLocationService;
 import se.groupproject.service.SupplierService;
 import org.springframework.stereotype.Component;
 
@@ -11,7 +12,9 @@ import java.util.Scanner;
 public class SupplierMenu {
     private final SupplierService supplierService;
 
-    public SupplierMenu(SupplierService supplierService) {
+    public SupplierMenu(SupplierService supplierService, StockLocationService stockLocationService) {
+
+
         this.supplierService = supplierService;
     }
 
