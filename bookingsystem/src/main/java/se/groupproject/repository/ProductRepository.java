@@ -1,6 +1,6 @@
-package gruppproject.repository;
+package se.groupproject.repository;
 
-import gruppproject.entity.Product;
+import se.groupproject.entity.Product;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.repository.query.Param;
 

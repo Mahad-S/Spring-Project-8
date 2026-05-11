@@ -1,7 +1,7 @@
-package gruppproject.service;
+package se.groupproject.service;
 
-import gruppproject.entity.Category;
-import gruppproject.repository.CategoryRepository;
+import se.groupproject.entity.Category;
+import se.groupproject.repository.CategoryRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

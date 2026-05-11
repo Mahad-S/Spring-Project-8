@@ -1,6 +1,6 @@
-package gruppproject.repository;
+package se.groupproject.repository;
 
-import gruppproject.entity.Category;
+import se.groupproject.entity.Category;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.repository.query.Param;
 
