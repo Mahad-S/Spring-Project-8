@@ -1,5 +1,8 @@
 gruppproject/entity/Category.class
-gruppproject/repository/CategoryRepository.class
-groupproject/App.class
 gruppproject/menu/MainMenu.class
 gruppproject/service/CategoryService.class
+gruppproject/service/ProductService.class
+gruppproject/repository/CategoryRepository.class
+groupproject/App.class
+gruppproject/repository/ProductRepository.class
+gruppproject/entity/Product.class
