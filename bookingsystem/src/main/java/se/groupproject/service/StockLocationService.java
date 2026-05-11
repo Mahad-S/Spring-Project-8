@@ -1,9 +1,9 @@
-package se.gruppprojekt.service;
+package se.groupproject.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import se.gruppprojekt.entity.StockLocation;
-import se.gruppprojekt.repository.StockLocationRepository;
+import se.groupproject.entity.StockLocation;
+import se.groupproject.repository.StockLocationRepository;
 
 import java.util.List;
 import java.util.Optional;

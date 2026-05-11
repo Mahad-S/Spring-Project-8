@@ -1,7 +1,7 @@
-package se.gruppprojekt.repository;
+package se.groupproject.repository;
 
 import org.springframework.data.jpa.repository.JpaRepository;
-import se.gruppprojekt.entity.StockLocation;
+import se.groupproject.entity.StockLocation;
 
 import java.util.Optional;
 
