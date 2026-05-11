@@ -3,12 +3,12 @@ package gruppproject.entity;
 import jakarta.persistence.*;
 
 @Entity
-@Table(name = "categories")
+@Table(name = "products")
 @NamedQuery(
-        name = "Category.findByName",
-        query = "SELECT c FROM Category c WHERE c.name = :name"
+        name = "Product.findByName",
+        query = "SELECT p FROM Product p WHERE p.name = :name"
 )
-public class Category {
+public class Product {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -16,11 +16,14 @@ public class Category {
 
     private String name;
 
-    public Category() {
+    private double price;
+
+    public Product() {
     }
 
-    public Category(String name) {
+    public Product(String name, double price) {
         this.name = name;
+        this.price = price;
     }
 
     public Long getId() {
@@ -31,7 +34,15 @@ public class Category {
         return name;
     }
 
+    public double getPrice() {
+        return price;
+    }
+
     public void setName(String name) {
         this.name = name;
+    }
+
+    public void setPrice(double price) {
+        this.price = price;
     }
 }

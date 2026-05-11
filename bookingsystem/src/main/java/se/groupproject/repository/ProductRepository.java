@@ -1,13 +1,13 @@
 package gruppproject.repository;
 
-import gruppproject.entity.Category;
+import gruppproject.entity.Product;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.repository.query.Param;
 
 import java.util.List;
 
-public interface CategoryRepository extends JpaRepository<Category, Long> {
+public interface ProductRepository extends JpaRepository<Product, Long> {
 
-    List<Category> findByName(@Param("name") String name);
+    List<Product> findByName(@Param("name") String name);
 
 }

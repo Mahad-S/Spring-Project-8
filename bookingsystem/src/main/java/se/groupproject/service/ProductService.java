@@ -1,27 +1,27 @@
 package gruppproject.service;
 
-import gruppproject.entity.Category;
-import gruppproject.repository.CategoryRepository;
+import gruppproject.entity.Product;
+import gruppproject.repository.ProductRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
 
 @Service
-public class CategoryService {
+public class ProductService {
 
     @Autowired
-    private CategoryRepository repository;
+    private ProductRepository repository;
 
-    public Category save(Category category) {
-        return repository.save(category);
+    public Product save(Product product) {
+        return repository.save(product);
     }
 
-    public List<Category> getAll() {
+    public List<Product> getAll() {
         return repository.findAll();
     }
 
-    public List<Category> findByName(String name) {
+    public List<Product> findByName(String name) {
         return repository.findByName(name);
     }
 
